@@ -1,0 +1,20 @@
+.button{
+    -fx-font-family: Consolas;
+    -fx-font-size: 16;
+}
+
+.label{
+    -fx-font-family: Consolas;
+    -fx-font-size:12;
+}
+
+.list-cell{
+    -fx-font-family: Consolas;
+    -fx-font-size: 14;
+}
+
+#lblSongName{
+    -fx-font-family:Consolas;
+    -fx-font-size: 18;
+}
+
