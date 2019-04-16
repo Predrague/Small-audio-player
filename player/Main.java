@@ -1,4 +1,4 @@
-package sample;
+package player;
 
 import javafx.application.Application;
 import javafx.fxml.FXML;
@@ -16,7 +16,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("app.fxml"));
         primaryStage.setTitle("Small audio player");
         Scene s = new Scene(root,574,407);
-        s.getStylesheets().add("styles.css");
+        s.getStylesheets().add("resources/styles.css");
         primaryStage.setScene(s);
 
         primaryStage.setResizable(false);
